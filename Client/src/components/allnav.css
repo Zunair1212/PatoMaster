@@ -1,0 +1,45 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.headerr{
+    width: 100%;
+    height: 90px;
+    background-color: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    position: absolute;
+
+    }
+.loggo{
+    width: 30%;
+  
+}
+.loggo img{
+    width: 230px;
+    height: 190px; 
+    padding-top:30px ;
+    border-radius: 70px 70px;
+  
+}
+.navvbar{
+    width: 70%;
+  
+}
+.navvbar ul{
+    list-style: none;
+    display: flex;
+
+}
+.navvbar ul li {
+    margin-right: 50px;
+    color:white;
+    font-style: italic;
+    font-size: 18px;
+    font-weight: bolder;
+    
+}
