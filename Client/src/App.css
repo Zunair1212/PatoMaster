@@ -772,7 +772,7 @@ color:white;
   }
   /* ////////////////////////////////////////// */
 
-.about{
+/* .about{
   width: 100%; 
   height: 600px; 
 }
@@ -977,4 +977,442 @@ color:white;
 
 
 
+ */
+/* Base styles */
+.about {
+  width: 100%;
+  height: auto;
+  min-height: 300px;
+}
 
+.aboutsec {
+  background-image: url('../public/slider2.jpeg');
+  background-size: cover;
+  background-position: center;
+  height: auto;
+  min-height: 300px;
+  padding: 20px 0;
+} 
+
+.aboutsec h1 {
+  text-align: center;
+  padding-top: 150px;
+  font-size: 2.5rem;
+  color: white;
+  margin: 0;
+}
+
+.abtsec {
+  height: auto;
+  padding: 50px 20px;
+  background-color: rgb(240, 240, 240);
+  text-align: center;
+} 
+
+.abtsec h2 {
+  padding-top: 30px;
+  color: rgb(187, 4, 4);
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin: 0;
+}
+
+.abtsec h1 {
+  font-size: 2.5rem;
+  color: rgb(37, 37, 37);
+  margin: 10px 0;
+}
+
+.abtsec p {
+  color: rgb(87, 86, 86);
+  font-size: 1rem;
+  font-style: italic;
+  padding-top: 10px;
+  line-height: 1.5;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.samecont {
+  background-color: rgb(240, 240, 240);
+  height: auto;
+  width: 100%;
+  padding: 50px 0;
+}
+
+.smeone {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.smeone .sm1 {
+  text-align: center;
+  margin-top: 50px;
+  order: 1;
+}
+
+.smeone .sm1 h2 {
+  color: rgb(187, 4, 4);
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.smeone .sm1 h1 {
+  font-size: 2.5rem;
+  margin: 10px 0;
+}
+
+.smeone .sm1 p {
+  color: rgb(87, 86, 86);
+  font-size: 1rem;
+  font-style: italic;
+  padding-top: 10px;
+  line-height: 1.5;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.sm2 {
+  width: 100%;
+  max-width: 450px;
+  height: auto;
+  aspect-ratio: 1/0.9;
+  overflow: hidden;
+  position: relative;
+  margin-top: 30px;
+  border: 2px solid rgb(240, 240, 240);
+  border-radius: 20px;
+  margin-left: 0;
+  cursor: pointer;
+  order: 2;
+}
+
+.sm2:hover .zoomimage {
+  transform: scale(1.10); 
+  transform-origin: center;
+}
+
+.smetwo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.sm3 {
+  width: 100%;
+  max-width: 450px;
+  height: auto;
+  aspect-ratio: 1/0.9;
+  overflow: hidden;
+  position: relative;
+  margin-top: 30px;
+  border: 2px solid rgb(240, 240, 240);
+  border-radius: 20px;
+  cursor: pointer;
+  order: 1;
+}
+
+.sm3:hover .zoomimage {
+  transform: scale(1.10); 
+  transform-origin: center;
+}
+
+.smetwo .sm4 {
+  text-align: center;
+  margin-top: 50px;
+  order: 2;
+}
+
+.smetwo .sm4 h2 {
+  color: rgb(187, 4, 4);
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.smetwo .sm4 h1 {
+  font-size: 2.5rem;
+  margin: 10px 0;
+}
+
+.smetwo .sm4 p {
+  color: rgb(87, 86, 86);
+  font-size: 1rem;
+  font-style: italic;
+  padding-top: 10px;
+  line-height: 1.5;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.abtimg {
+  height: auto;
+  width: 100%;
+}
+
+.abtimg img {
+  height: auto;
+  width: 100%;
+  max-height: 600px;
+  object-fit: cover;
+}
+
+.abtcard {
+  height: auto;
+  width: 100%;
+  padding: 50px 20px;
+}
+
+.abtcard h2 {
+  color: rgb(187, 4, 4);
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-align: center;
+  padding-left: 0;
+  margin: 0;
+}
+
+.abtcard h1 {
+  font-size: 3rem;
+  font-style: italic;
+  line-height: 1;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.abboutlist {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  padding-top: 50px;
+  gap: 30px;
+}
+
+.aboutlist {
+  cursor: pointer;
+  margin-bottom: 50px;
+}
+
+.abtlist img {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -50px;
+  z-index: 1;
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  border: 8px solid rgb(187, 4, 4);
+  display: block;
+}
+
+.abttitle {
+  border-style: groove;
+  position: relative;
+  padding-top: 80px;
+  width: 280px;
+  margin: 0 auto;
+  background: white;
+}
+
+.abttitle h3 {
+  padding-top: 20px;
+  margin-left: 0;
+  text-align: center;
+  font-style: oblique;
+  cursor: pointer;
+  color: rgb(187, 4, 4);
+}
+
+.abttitle h3:hover {
+  font-style: oblique;
+  color: black;
+  cursor: pointer;
+}
+
+.abttitle h4 {
+  margin-left: 0;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.abttitle p {
+  padding-top: 10px;
+  text-align: justify;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  width: auto;
+  color: rgb(68, 65, 65);
+  font-size: 0.9rem;
+}
+
+/* Media Queries for larger screens */
+@media (min-width: 768px) {
+  .about {
+    height: 400px;
+  }
+  
+  .aboutsec {
+    height: 400px;
+  }
+  
+  .aboutsec h1 {
+    padding-top: 180px;
+    font-size: 3.5rem;
+  }
+  
+  .abtsec {
+    padding: 80px 20px;
+  }
+  
+  .abtsec h2 {
+    font-size: 2rem;
+  }
+  
+  .abtsec h1 {
+    font-size: 3.5rem;
+  }
+  
+  .abtsec p {
+    font-size: 1.2rem;
+  }
+  
+  .smeone {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  .smeone .sm1 {
+    margin-top: 100px;
+    order: 0;
+    text-align: left;
+    max-width: 40%;
+  }
+  
+  .sm2 {
+    order: 0;
+    margin-top: 50px;
+    margin-left: 20px;
+  }
+  
+  .smetwo {
+    flex-direction: row;
+  }
+  
+  .sm3 {
+    order: 0;
+    margin-top: 90px;
+  }
+  
+  .smetwo .sm4 {
+    margin-top: 180px;
+    text-align: left;
+    max-width: 40%;
+    order: 0;
+  }
+  
+  .abtcard h2 {
+    font-size: 2rem;
+    padding-left: 0;
+    text-align: center;
+  }
+  
+  .abtcard h1 {
+    font-size: 5rem;
+  }
+  
+  .abttitle {
+    width: 300px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .about {
+    height: 600px;
+  }
+  
+  .aboutsec {
+    height: 600px;
+  }
+  
+  .aboutsec h1 {
+    padding-top: 300px;
+    font-size: 5rem;
+  }
+  
+  .abtsec {
+    height: 450px;
+  }
+  
+  .abtsec h2 {
+    font-size: 2rem;
+  }
+  
+  .abtsec h1 {
+    font-size: 4.5rem;
+  }
+  
+  .abtsec p {
+    font-size: 1.3rem;
+  }
+  
+  .samecont {
+    height: auto;
+  }
+  
+  .smeone .sm1 h2 {
+    font-size: 2.5rem;
+  }
+  
+  .smeone .sm1 h1 {
+    font-size: 4rem;
+  }
+  
+  .smeone .sm1 p {
+    font-size: 1.2rem;
+  }
+  
+  .smetwo .sm4 h2 {
+    font-size: 2.5rem;
+  }
+  
+  .smetwo .sm4 h1 {
+    font-size: 4rem;
+  }
+  
+  .smetwo .sm4 p {
+    font-size: 1.2rem;
+  }
+  
+  .abtcard h2 {
+    padding-left: 690px;
+    text-align: left;
+  }
+  
+  .abtcard h1 {
+    font-size: 6rem;
+  }
+  
+  .abtlist img {
+    height: 200px;
+    width: 200px;
+  }
+  
+  .abttitle {
+    width: 350px;
+  }
+  
+  .abttitle h4 {
+    font-size: 1.2rem;
+  }
+  
+  .abttitle p {
+    font-size: 1rem;
+  }
+}
